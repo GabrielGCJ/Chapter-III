@@ -11,7 +11,7 @@ class ImportCategoryController {
 
         await importCategoryUseCase.execute(file as any) 
         
-        return response.send() 
+        return response.status(201).send() 
     }
 }
 
