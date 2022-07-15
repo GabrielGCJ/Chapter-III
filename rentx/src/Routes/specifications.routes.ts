@@ -1,7 +1,5 @@
 import { Router } from "express";
-
-// import { createSpecificationController } from "../Modules/Cars/useCases/createSpecification";
-import { CreateSpecificationController } from "../Modules/Cars/useCases/createSpecification/createSpecificationController";
+import { CreateSpecificationController } from "../Modules/Cars/useCases/createSpecification/CreateSpecificationController";
 
 
 const specificationsRoutes = Router();
