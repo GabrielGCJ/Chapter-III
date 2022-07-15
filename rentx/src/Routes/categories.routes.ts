@@ -4,7 +4,7 @@ import { CreateCategoryControler } from "../Modules/Cars/useCases/createCategory
 
 // import  createCategoryControler  from "../Modules/Cars/useCases/createCategory";
 // import { importCategoryController } from "../Modules/Cars/useCases/importCategory";
-// import { listCategoriesController } from "../Modules/Cars/useCases/listCategories";
+import { listCategoriesController } from "../Modules/Cars/useCases/listCategories";
 
 const categoriesRoutes = Router();
 
@@ -18,12 +18,12 @@ const createCategoryControler = new CreateCategoryControler
 
 categoriesRoutes.post("/",createCategoryControler.handle)
 
-// categoriesRoutes.get("/",(request,response) => {
-//     return listCategoriesController.handle(request, response)
-// })
+categoriesRoutes.get("/",(request,response) => {
+    return listCategoriesControlle.handle(request, response)
+})
 
-// categoriesRoutes.post("/import", upload.single("file") ,(request,response) =>{
-//     return importCategoryController.handle(request, response)
-// })
+categoriesRoutes.post("/import", upload.single("file") ,(request,response) =>{
+    return importCategoryController.handle(request, response)
+})
 
 export { categoriesRoutes }
