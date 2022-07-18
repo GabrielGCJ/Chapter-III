@@ -1,5 +1,5 @@
 import { inject, injectable } from "tsyringe";
-import { ICreateUserDTO } from "../../../DTOs/ICreateUserDTO";
+import { ICreateUserDTO } from "../../DTOs/ICreateUserDTO";
 import { IUsersRepository } from "../../Repositories/IUsersRepository";
 
 
@@ -13,10 +13,9 @@ class CreateUserUseCase {
     ) {}
 
 
-    async execute({ name, username, email, password, driver_license }:ICreateUserDTO):Promise<void> {
+    async execute({ name, email, password, driver_license }:ICreateUserDTO):Promise<void> {
         await this.usersRepository.create({
             name,
-            username,
             email,
             password,
             driver_license 
