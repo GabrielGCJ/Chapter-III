@@ -8,9 +8,6 @@ import { UpdateUserAvatarController } from "../Modules/Accounts/useCases/updateU
 
 const usersRoutes = Router()
 
-// const upload = multer({
-//     dest: "avatar"
-// })
 
 const uploadAvatar = multer(uploadConfig.upload("./tmp/avatar"))
 
