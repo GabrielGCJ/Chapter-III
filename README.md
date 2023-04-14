@@ -4,9 +4,13 @@ Este é um projeto de API para gerenciar aluguel de carros. A API permite a cria
 
 Tecnologias utilizadas:
 Node.js
+
 Postgres
+
 JWT
+
 Instalação
+
 Para instalar as dependências do projeto, execute o seguinte comando na raiz do projeto:
 
 -yarn install
