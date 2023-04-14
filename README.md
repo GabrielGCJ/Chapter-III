@@ -3,6 +3,7 @@
 Este é um projeto de API para gerenciar aluguel de carros. A API permite a criação, atualização, exclusão e busca de veículos disponíveis para aluguel, bem como a realização de reservas por usuários cadastrados.
 
 Tecnologias utilizadas:
+
 Node.js
 
 Postgres
