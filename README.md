@@ -19,16 +19,3 @@ Para instalar as dependências do projeto, execute o seguinte comando na raiz do
 Logo apos isso faça o sistema rodar:
 
 -yarn start
-
-Contribuição
-Sinta-se à vontade para contribuir com o projeto. Para isso, siga os seguintes passos:
-
-Fork do projeto
-Crie uma branch para a sua feature (git checkout -b feature/MyFeature)
-Faça o commit das suas alterações (git commit -am 'Add some feature')
-Faça o push para a sua branch (git push origin feature/MyFeature)
-Abra um pull request
-
-
-
-
